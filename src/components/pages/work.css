@@ -1,0 +1,61 @@
+.works-done-container {
+    padding: 30px;
+    background-color: #f5f5f5;
+    }
+    .title { 
+        color: maroon;
+    }
+    .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .project-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #cccccc;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #cccccc;
+    }
+    
+    .project-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    
+    .project-info {
+    padding: 20px;
+    }
+    
+    .project-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    .project-description {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555555;
+    }
+    
+    .project-link {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    .project-link:hover {
+    color:   #0056b3;
+    }
