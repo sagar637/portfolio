@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Skills = () => {
-    const [skills, setSkills] = useState([
+    const [skills ] = useState([
 
         { name: "Flutter", percentage: "90%" },
         { name: "JavaScript", percentage: "50%" },
