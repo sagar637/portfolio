@@ -10,6 +10,7 @@ import {
 const Navbar = () => {
     return (
         <>
+       
             <Nav>
                 <NavMenu>
 
@@ -18,6 +19,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to='/about' activeStyle>
                         About Me
+                    </NavLink>
+                    <NavLink to='/skills' activeStyle>
+                        Skills
                     </NavLink>
                     <NavLink to='/works' activeStyle>
                         Works
