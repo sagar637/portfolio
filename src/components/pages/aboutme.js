@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import profilpic2 from './pic/pic.jpg'
 
 export class Aboutme extends Component {
     render() {
@@ -8,7 +8,7 @@ export class Aboutme extends Component {
                 <br />
                 <div className="image-text-container">
                     <img
-                        src={"https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/320385987_3265291743731988_5130192946728199065_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=X5voVesMg_0AX9GuNzo&_nc_ht=scontent.fsif1-1.fna&oh=00_AfAYBJwVyrKsnPyVTYGiIQs_em6pLzW0zh_J30hxgi6jAQ&oe=63D3D5FF"}
+                        src={profilpic2}
                         alt="Profile"
                         style={{
                             width: "40%",
