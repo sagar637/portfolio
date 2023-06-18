@@ -2,17 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 25px;
+    
+    background: linear-gradient(45deg, #ff9800, #f44336);
 }
 
 .counter-containeraboutme {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    /* display: flex; */
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
+  margin-top: 50px;
+  display: block;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  width: 300px; /* Adjust the width as per your requirement */
+  height: 200px; /* Adjust the height as per your requirement */
+    
 }
 
 .counter-heading {
@@ -35,12 +40,12 @@
 
 
 
-.image-text-container {
+/* .image-text-container {
     display: flex;
-    align-items: center;
+    
     color: black;
-    font-size: 100%;
-  }
+   
+  } */
   
   img {
     margin-right: 50px;
@@ -56,7 +61,7 @@
 
   .counter-headingedu {
     font-size: 2rem;
-    /* margin-bottom: 1px; */
+    margin-bottom: 1px;
     color: black;
 
 }
@@ -75,12 +80,13 @@ img {
 }
 
 .counter-headingaboutme1 {
+  margin-top: 65px;
     width: 60%;
     padding: 0px 20px;
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .image-text-container {
         flex-direction: column;
     }
@@ -97,16 +103,16 @@ img {
         width: 100%;
         padding: 0px 20px;
     }
-}
+} */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
     img {
         width: 30%;
         height: 30%;
         margin: 0 auto;
         text-align: center;
     }
-}
+} */
 
 .skills-container {
     max-width: 800px;
@@ -138,4 +144,42 @@ img {
     text-align: right;
     margin-left: 20px;
   }
-  
+  .mainboxfrontpage{
+  background-color: black;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  }
+  .text{ 
+    color: white;
+    font-weight: 700;
+    font-family: 'Circular Std';
+  }
+
+  .sub-text { 
+    color: white;
+    font-weight: 200;
+    font-family: 'Circular Std';
+    font-size: medium;
+  }
+
+  .socialmedia{ 
+    padding-left: 100px;
+    display: flexbox;
+    gap: 20px;
+    align-items: center;
+  }
+ 
+  .text-header{ 
+    color: black;
+    font-weight: 700;
+    font-family: 'Circular Std';
+  }
+  .text-aboutme{ 
+    color: black;
+    font-weight: 200;
+    font-family: 'Circular Std';
+    font-size: medium;
+  }

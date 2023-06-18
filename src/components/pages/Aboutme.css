@@ -1,0 +1,46 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(45deg, #ff9800, #f44336);
+}
+
+.counter-containeraboutme {
+    /* margin-top: 50px; */
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    width: 950px;
+    /* Adjust the width as per your requirement */
+    height: 550px;
+    /* Adjust the height as per your requirement */
+
+}
+
+
+.counter-headingaboutme1 {
+    /* display: flex; */
+    margin-top: 65px;
+    width: 60%;
+    padding: 0px 0px;
+    margin-right: 40px;
+}
+
+.text-header {
+    color: black;
+    font-weight: 700;
+    font-family: 'Circular Std';
+    font-size: small;
+}
+
+.text-aboutme {
+    color: black;
+    font-weight: 100;
+    font-family: 'Circular Std';
+    font-size: small;
+}

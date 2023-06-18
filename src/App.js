@@ -10,18 +10,50 @@ import Skills from './components/pages/skills';
 
 
 
-function App() {
+// function App() {
+//   return (
+//     <Routes>
+//       <Route path="/" element={<> <Navbar /> <Home /> </>} />
+//       <Route path="/about" element={<> <Navbar /> < Aboutme /> </>} />
+//       <Route path="/works" element={<> <Navbar /> <Works /> </>} />
+//       <Route path="/skills" element={<> <Navbar /> <Skills /> </>} />
+//     </Routes>
+
+
+
+//   );
+// }
+
+// export default App;
+import React, { useState, useEffect } from 'react';
+import LoadingDialog from './LoadingDialog';
+
+const App = () => {
+  const [showLoading, setShowLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an asynchronous process
+    setTimeout(() => {
+      setShowLoading(false);
+    }, 3000);
+  }, []);
+
   return (
-    <Routes>
-      <Route path="/" element={<> <Navbar /> <Home /> </>} />
-      <Route path="/about" element={<> <Navbar /> < Aboutme /> </>} />
-      <Route path="/works" element={<> <Navbar /> <Works /> </>} />
-      <Route path="/skills" element={<> <Navbar /> <Skills /> </>} />
-    </Routes>
-
-
-
+    <div>
+      {showLoading ? (
+        <LoadingDialog />
+      ) : (
+        <>
+          <Routes>
+            <Route path="/" element={<> <Navbar /> <Home /> </>} />
+            <Route path="/about" element={<> <Navbar /> < Aboutme /> </>} />
+            <Route path="/works" element={<> <Navbar /> <Works /> </>} />
+            <Route path="/skills" element={<> <Navbar /> <Skills /> </>} />
+          </Routes>
+        </>
+      )}
+    </div>
   );
-}
+};
 
 export default App;
